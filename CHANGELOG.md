@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.3.6](https://github.com/skynetidc/webssh2/compare/webssh2-server-v2.3.5...webssh2-server-v2.3.6) (2026-10-08)
+
+
+### Bug Fixes
+
+* csp headers upgrade-insecure-requests cause browser to attempt https, removed. fixes [#434](https://github.com/skynetidc/webssh2/issues/434) ([#435](https://github.com/skynetidc/webssh2/issues/435)) ([ac87aaf](https://github.com/skynetidc/webssh2/commit/ac87aaf833158029c94570ab56c936de7bdd0611))
+* package.json & package-lock.json to reduce vulnerabilities ([#440](https://github.com/skynetidc/webssh2/issues/440)) ([6e3261b](https://github.com/skynetidc/webssh2/commit/6e3261b6a9aaf1b7ea685831afb48779593d962b))
+* private key authentication not working with config credentials ([#443](https://github.com/skynetidc/webssh2/issues/443)) ([e43c811](https://github.com/skynetidc/webssh2/commit/e43c811ce38eddb2ddf3d04a50c5158af46a0532))
+* respect config ssh port ([#432](https://github.com/skynetidc/webssh2/issues/432)) ([dcaf257](https://github.com/skynetidc/webssh2/commit/dcaf2574fade5f517c13dbb7e88eccc61c2e1fcd))
+
 ## [2.3.5](https://github.com/billchurch/webssh2/compare/webssh2-server-v2.3.4...webssh2-server-v2.3.5) (2025-11-06)
 
 
